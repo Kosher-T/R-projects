@@ -1,5 +1,7 @@
 # R-projects
 
+Never even heard about R before I did some reserch into AI.
+
 ## R Script for Basic Temperature Analysis
 
 This R script performs a series of basic statistical calculations on a predefined vector of temperatures. It calculates the average, highest, lowest temperature, the temperature range, and the count of temperature readings.
