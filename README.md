@@ -2,7 +2,7 @@
 
 Never even heard about R before I did some reserch into AI.
 
-## R Script for Basic Temperature Analysis (R Vestor lesson on Coddy)
+## R Script for Basic Temperature Analysis (Vector lesson on Coddy)
 
 This R script performs a series of basic statistical calculations on a predefined vector of temperatures. It calculates the average, highest, lowest temperature, the temperature range, and the count of temperature readings.
 
