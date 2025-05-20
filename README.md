@@ -48,3 +48,43 @@ cat("Highest:", highest_temp, "\n")
 cat("Lowest:", lowest_temp, "\n")
 cat("Range:", sprintf("%.1f", temp_range), "\n")
 cat("Count:", temp_count, "\n")
+```
+
+## R Script for Vector and Factor Exploration
+
+This R script demonstrates the creation and basic inspection of a logical vector and a factor vector. It showcases how to determine their classes, count TRUE values in a logical vector, and list the levels of a factor.
+
+### Script Overview
+
+The script performs the following actions:
+
+1.  **Initializes `is_weekend`:** Creates a logical vector representing days of a week, indicating whether each day is a weekend (TRUE) or not (FALSE).
+2.  **Initializes `weather`:** Creates a factor vector representing weather conditions. Factors are R's way of handling categorical data.
+3.  **Prints Class of `is_weekend`:** Displays the data type/class of the `is_weekend` vector.
+4.  **Prints Class of `weather`:** Displays the data type/class of the `weather` vector.
+5.  **Counts TRUE Values in `is_weekend`:** Calculates and prints the number of days marked as TRUE (weekends) in the `is_weekend` vector.
+6.  **Prints Levels of `weather`:** Displays the unique categories (levels) present in the `weather` factor.
+
+### Code Structure
+
+```R
+# Read input (not needed for this challenge)
+
+# TODO: Write your code below
+is_weekend <- c(TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE)
+weather <- factor(c("Rainy", "Cloudy", "Sunny", "Rainy"))
+
+# Print the class of is_weekend
+print(class(is_weekend))
+
+# Print the class of weather
+print(class(weather))
+
+# Print the number of TRUE values in is_weekend
+print(sum(is_weekend))
+
+# Print the levels of weather
+print(levels(weather))
+
+# Note: Make sure your output matches the expected format exactly
+```
